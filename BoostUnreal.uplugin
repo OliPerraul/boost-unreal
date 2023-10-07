@@ -1,0 +1,24 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.83.0",
+	"FriendlyName": "BoostUnreal",
+	"Description": "Hierarchical Finite State Machine 2",
+	"Category": "State Machines",
+	"CreatedBy": "Andrew Gresyk",
+	"CreatedByURL": "https://www.twitter.com/andrew_gresyk",
+	"DocsURL": "https://hfsm.dev",
+	"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/product/b75413047bfc482fbfa5388a8616e574",
+	"SupportURL": "https://discord.gg/v4t3tzh",
+	"EngineVersion": "5.3.0",
+	"CanContainContent": false,
+	"Installed": true,
+	"Modules": [
+		{
+			"Name": "BoostUnreal",
+			"Type": "Runtime",
+			"WhitelistPlatforms": [ "Win64", "Win32", "Mac", "Linux" ],
+			"LoadingPhase": "Default"
+		}
+	]
+}
