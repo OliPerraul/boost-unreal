@@ -65,7 +65,7 @@ namespace boost { namespace geometry
 namespace projections
 {
     #ifndef DOXYGEN_NO_DETAIL
-    namespace detail { namespace healpix
+    namespace detail { namespace Healpix
     {
 
             /* Fuzz to handle rounding errors: */

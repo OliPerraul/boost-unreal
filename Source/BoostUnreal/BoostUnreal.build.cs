@@ -14,8 +14,10 @@ public class BoostUnreal : ModuleRules
 
 		// For boost::
 		bEnableUndefinedIdentifierWarnings = false;
-		bUseRTTI = true;		
-		
+		bUseRTTI = true;
+		ShadowVariableWarningLevel = WarningLevel.Off;
+		bWarningsAsErrors = false;
+
 		PublicIncludePaths.AddRange(new string[] {});
 		PrivateIncludePaths.AddRange(new string[] {});
 		PublicDependencyModuleNames.AddRange(new string[] {"Core"});
